@@ -1,0 +1,52 @@
+# Org.OpenAPITools.Model.Product
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Availability** | **string** |  | [optional] 
+**Barcode** | **string** |  | [optional] 
+**Brand** | **string** |  | [optional] 
+**CategoryId** | **string** |  | [optional] 
+**Condition** | **string** |  | [optional] 
+**DefaultLedgerAccount** | **string** |  | [optional] 
+**DefaultPrice** | **string** |  | [optional] 
+**DefaultPriceFormulaId** | **Guid?** | References the price formula entity. | [optional] 
+**DefaultTaxRate** | **string** |  | [optional] 
+**Description** | **string** |  | [optional] 
+**Gtin** | **string** |  | [optional] 
+**Height** | **string** |  | [optional] 
+**ImageLink** | **string** |  | [optional] 
+**Images** | **Object** |  | [optional] 
+**IsTaxable** | **bool** |  | [optional] 
+**Length** | **string** |  | [optional] 
+**Link** | **string** |  | [optional] 
+**MaxStock** | **long?** | Target stock level used by reorder proposals. | [optional] 
+**MinStock** | **long?** | Reorder point — when stock falls below this, a reorder is suggested. | [optional] 
+**Mpn** | **string** |  | [optional] 
+**Name** | **string** |  | 
+**PackageHeight** | **string** |  | [optional] 
+**PackageLength** | **string** |  | [optional] 
+**PackageWeightUnit** | **string** |  | [optional] 
+**PackageWeightValue** | **string** |  | [optional] 
+**PackageWidth** | **string** |  | [optional] 
+**ProductCode** | **string** |  | 
+**ProductType** | **string** |  | [optional] 
+**PurchasePrice** | **string** |  | [optional] 
+**ReorderQuantity** | **long?** | Suggested purchase quantity when a reorder proposal is created. | [optional] 
+**SalePrice** | **string** |  | [optional] 
+**ShippingPrice** | **string** |  | [optional] 
+**ShippingRequiresInsurance** | **bool?** |  | [optional] 
+**Sku** | **string** |  | 
+**StockQuantity** | **long?** |  | [optional] 
+**Tags** | **Object** |  | [optional] 
+**TaxPrice** | **string** |  | [optional] 
+**TrackBatch** | **bool** | Whether this product requires batch (Chargennummer) tracking. | [optional] 
+**TrackSerial** | **bool** | Whether this product requires serial-number tracking. | [optional] 
+**Unit** | **Object** |  | [optional] 
+**WeightUnit** | **string** |  | [optional] 
+**WeightValue** | **string** |  | [optional] 
+**Width** | **string** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,13 @@
+# Org.OpenAPITools.Model.GatewayOAuthCallbackRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Code** | **string** |  | 
+**GatewayType** | **string** |  | 
+**RedirectUri** | **string** |  | 
+**State** | **string** |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
